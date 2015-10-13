@@ -32,6 +32,7 @@
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    NSLog (@"supportedInterfaceOrientations");
     return UIInterfaceOrientationMaskLandscape;
 }
 
