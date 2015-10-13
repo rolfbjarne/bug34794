@@ -31,7 +31,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(NSUInteger) supportsInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;
 }
 
